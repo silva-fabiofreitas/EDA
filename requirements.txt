@@ -1,0 +1,6 @@
+pandas
+seaborn
+openpyxl
+scipy
+networkx
+pyvis
