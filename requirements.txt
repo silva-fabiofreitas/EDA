@@ -5,3 +5,5 @@ scipy
 networkx
 pyvis
 geopandas 
+geobr
+adjustText
