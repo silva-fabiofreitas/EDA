@@ -7,3 +7,5 @@ pyvis
 geopandas 
 geobr
 adjustText
+statsmodels
+linearmodels
