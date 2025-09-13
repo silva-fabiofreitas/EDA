@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root", "--no-browser", "--port=8888"]

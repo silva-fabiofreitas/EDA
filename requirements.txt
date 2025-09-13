@@ -9,3 +9,5 @@ geobr
 adjustText
 statsmodels
 linearmodels
+scikit-learn
+duckdb
