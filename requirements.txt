@@ -11,3 +11,5 @@ statsmodels
 linearmodels
 scikit-learn
 duckdb
+plotly
+nbconvert
